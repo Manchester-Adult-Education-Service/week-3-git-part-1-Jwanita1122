@@ -13,7 +13,9 @@
 # - Asks the user for their age
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
-
+name =input("What is your name")
+age=int(input("How old are you? "))
+print(f"Hello {name}, next year you will be {age+1}!")
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
@@ -48,7 +50,9 @@
 #   Example:
 #   "Hello Alice, next year you will be 26. Your favourite colour is blue
 #   and you really like pizza!"
-#
+favouritefood =input("What is your favourite food? ")
+favouritecoulor =input("What is you favourite coulour? ")
+print(f"hello {name}, your favourit food is {favouritefood} and your favourite coulor is {favouritecoulor}")  )
 # - Make sure you use variables for all inputs and format the output clearly.
 #
 # Once complete, save your work with another commit:
